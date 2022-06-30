@@ -1,0 +1,22 @@
+{
+  "name": "es-converter",
+  "version": "1.0.0",
+  "description": "ECMAScript converter",
+  "main": "index.js",
+  "scripts": 
+  {
+      "build": "babel es6 -d es5"
+  },
+    
+  "scripts": 
+  {
+      "build": "babel --presets es2015 es6 -d es5"
+  },
+  "keywords": [],
+  "author": "Lucas Debeterco",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
